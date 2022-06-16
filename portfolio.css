@@ -1,9 +1,16 @@
 li {
     list-style: none
 }
+body {
+    color: #000000;
+}
+
+.techstacks{
+    text-align: center;
+}
 .bgimage {
     height:100vh;
-    background: url('https://wallpaperaccess.com/full/432474.png');
+    background: url("https://i.ibb.co/mDbnGTp/420422-B5-9654-45-A6-B9-ED-C206-C226-DF6-F-4-5005-c.jpg");
     background-size:cover;
     position:relative;
 }
@@ -22,7 +29,12 @@ li {
     transform: translate(-50%, -50%);
     color: white;
 }
-/* about section image css */
+
+
+/* about section css */
+#about{
+
+}
 .imageAboutPage {
     width: 100%;
 }

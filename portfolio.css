@@ -1,3 +1,6 @@
+li {
+    list-style: none
+}
 .bgimage {
     height:100vh;
     background: url('https://wallpaperaccess.com/full/432474.png');
@@ -18,4 +21,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
 }

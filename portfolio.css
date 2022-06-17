@@ -58,7 +58,10 @@ nav{
 #projects{
     color:#565555;
 }
-
+.btn-success, .btn-success:hover, .btn-success:active, .btn-success:visited {
+    background-color: #95D1EA !important;
+    color: #950D20;
+}
 /* resume */
 #resume {
     margin-top: 2em;
@@ -71,6 +74,7 @@ nav{
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: #A8D4AF !important;
     color: #476941;
+    font-weight: bolder;
 }
 
 /* experiences */

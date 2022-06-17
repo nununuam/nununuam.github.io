@@ -1,6 +1,9 @@
 li {
     list-style: none
 }
+a{
+    color: #694D41;
+}
 body {
     color: #000000;
 }
@@ -43,7 +46,6 @@ nav{
     color:#565555;
 }
 
-
 /* about section css */
 #about{
     color:#565555;
@@ -56,17 +58,6 @@ nav{
 #projects{
     color:#565555;
 }
-/* social media icons styling */
-.social-icons {
-    font-size: 36px;
-    cursor: pointer;
-}
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
-    color: #008000;
-}
-.fab {
-    color: #000000;
-}
 
 /* resume */
 #resume {
@@ -77,14 +68,35 @@ nav{
     align-items: center;
     height: 200px;
 }
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #A8D4AF !important;
+    color: #476941;
+}
 
 /* experiences */
 #experiences{
     color:#565555;
 }
+
+.card-block {
+    background-color: #E5AA7B;
+    color: #694D41;
+    padding-left: 2em;
+}
+.card-header{
+    background-color: #E5AA7B;
+    color: #694D41;
+}
 /* footer styling */
-#footer {
-    background-color: #E07C6C;
+#contact {
+    background-color:  #E2B86E;
     color:#565555;
+    text-align: left;
+    padding-left: 4rem;
+    padding-bottom: 2%;
+}
+.links{
+    font-weight: bold;
     text-align: center;
+    margin-top: 2em;
 }

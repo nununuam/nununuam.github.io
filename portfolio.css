@@ -4,13 +4,24 @@ li {
 body {
     color: #000000;
 }
+/* Nav*/
+.nav-item{
+    color: #E5E5E5;
+}
+.navbar-text{
+    color:#565555;
+}
+nav{
+    background-color: #E2B86E;
+    background-opacity: 20%;
+}
 
 .techstacks{
     text-align: center;
 }
 .bgimage {
     height:100vh;
-    background: url("https://i.ibb.co/mDbnGTp/420422-B5-9654-45-A6-B9-ED-C206-C226-DF6-F-4-5005-c.jpg");
+    background: #E2B86E;
     background-size:cover;
     position:relative;
 }
@@ -54,8 +65,21 @@ body {
 .fab {
     color: #000000;
 }
+
+/* resume */
+#resume {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+/* resume */
+
 /* footer styling */
 #footer {
-    background-color: #808080;
+    background-color: #E07C6C;
     text-align: center;
 }

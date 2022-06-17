@@ -33,12 +33,16 @@ body {
 
 /* about section css */
 #about{
-
+    color:#565555;
 }
 .imageAboutPage {
     width: 100%;
 }
 
+/* projects section css*/
+#projects{
+    color:#565555;
+}
 /* social media icons styling */
 .social-icons {
     font-size: 36px;
